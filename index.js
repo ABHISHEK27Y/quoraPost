@@ -79,10 +79,6 @@ app.delete("/posts/:id",(req,res)=>{
      res.redirect("/posts")
 })
 
-// Start server
-app.listen(port, () => {
-    console.log(`server started on port ${port}`);
-});
 
 
 
